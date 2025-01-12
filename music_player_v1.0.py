@@ -13,12 +13,18 @@ import os
 # Initialize pygame mixer
 pygame.mixer.init()
 
+
+
 # Store the current position of the music
 current_position = 0
 paused = False
 selected_folder_path ="/Users/huangzizheng/music_resources"  # Store the selected folder path
 
+#change color
+ctk.set_default_color_theme("green")
 
+
+#main code
 def update_progress():
     global current_position
     while True:
